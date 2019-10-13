@@ -11,11 +11,30 @@
 
     <Button
         android:id="@+id/button_antar_rekening"
-        android:onClick="HandleAntar_RekeningFragment"
         android:text="@string/antar_rekening"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
 
+    <Button
+        android:id="@+id/button_antar_bank"
+        android:text="@string/antar_bank"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <Button
+        android:id="@+id/button_bca_virtual_account"
+        android:text="@string/BCA_Virtual_Account"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <Button
+        android:id="@+id/button_sakuku"
+        android:text="@string/Sakuku"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
 
 </LinearLayout>

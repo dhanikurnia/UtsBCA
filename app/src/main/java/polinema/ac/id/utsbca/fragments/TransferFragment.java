@@ -12,16 +12,34 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 
 import polinema.ac.id.utsbca.R;
 
 
-public class TransferFragment extends AppCompatActivity {
+public class TransferFragment extends Fragment{
 
+    public TransferFragment(){
 
-    public void HandleAntar_RekeningFragment(View view) {
-
-        Intent intent =  new Intent(this, Antar_RekeningFragment.class);
-        startActivity(intent);
     }
+
+    @Override
+    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                             Bundle savedInstanceState) {
+        // Inflate the layout for this fragment
+        View view = inflater.inflate(R.layout.fragment_payment, container, false);
+
+        Button button_antar_rekening = (Button) view.findViewById(R.id.button_antar_rekening);
+        button_antar_rekening.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent in = new Intent(getActivity(),Antar_RekeningActivity.class );
+                in.putExtra("some","some data");
+                startActivity(in);
+            }
+        });
+        return view;
+
+    }
+
 }

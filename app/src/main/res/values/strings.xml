@@ -8,4 +8,7 @@
     <string name="name">name</string>
     <string name="name_hint">name_hint</string>
     <string name="submit">submit</string>
+    <string name="BCA_Virtual_Account">BCA_Virtual_Account</string>
+    <string name="Sakuku">Sakuku</string>
+    <string name="title_activity_antar__rekening">Antar_RekeningActivity</string>
 </resources>
