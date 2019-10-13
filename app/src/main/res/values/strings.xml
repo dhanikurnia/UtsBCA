@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">UtsBCA</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="antar_rekening">antar_rekening</string>
+    <string name="antar_bank">antar_bank</string>
+    <string name="name">name</string>
+    <string name="name_hint">name_hint</string>
+    <string name="submit">submit</string>
+</resources>
