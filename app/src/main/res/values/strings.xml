@@ -11,4 +11,8 @@
     <string name="BCA_Virtual_Account">BCA_Virtual_Account</string>
     <string name="Sakuku">Sakuku</string>
     <string name="title_activity_antar__rekening">Antar_RekeningActivity</string>
+    <string name="mBCA">mBCA</string>
+    <string name="klikBCA">klikBCA</string>
+    <string name="infoBCA">infoBCA</string>
+    <string name="about">about</string>
 </resources>

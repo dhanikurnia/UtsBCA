@@ -21,7 +21,6 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="polinema.ac.id.utsbca.activities.MainActivity" />
         </activity>
-        <activity android:name=".fragments.TransferFragment" />
         <activity android:name=".activities.MainActivity" />
         <activity android:name=".activities.SplashActivity">
             <intent-filter>

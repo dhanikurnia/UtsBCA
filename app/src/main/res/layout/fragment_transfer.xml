@@ -9,6 +9,12 @@
     android:orientation="vertical"
     tools:context=".fragments.TransferFragment">
 
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="113dp"
+        android:layout_height="105dp"
+        android:src="@drawable/logo_bca" />
+
     <Button
         android:id="@+id/button_antar_rekening"
         android:text="@string/antar_rekening"
@@ -36,5 +42,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         />
+
 
 </LinearLayout>
