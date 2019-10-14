@@ -8,9 +8,8 @@
     android:padding="10dp"
     android:orientation="vertical"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context=".activities.Antar_RekeningActivity"
-    tools:showIn="@layout/activity_antar__rekening">
-
+    tools:context=".activities.KlikbcaActivity"
+    tools:showIn="@layout/activity_klikbca">
 
     <LinearLayout
         android:layout_width="396dp"
@@ -23,16 +22,16 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/name">
+            android:text="@string/ussername">
 
         </TextView>
 
         <EditText
-            android:id="@+id/input_name"
+            android:id="@+id/input_ussername"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="2"
-            android:hint="@string/name_hint">
+            android:hint="@string/ussername_hint">
 
         </EditText>
 
@@ -52,7 +51,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/bank">
+            android:text="@string/password">
 
         </TextView>
 
@@ -61,7 +60,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="2"
-            android:hint="@string/bank_hint">
+            android:hint="@string/password_hint">
 
         </EditText>
 
@@ -69,55 +68,13 @@
 
     </LinearLayout>
 
-    <LinearLayout
-        android:layout_width="396dp"
-        android:layout_height="wrap_content"
-        android:layout_margin="10dp"
-        android:weightSum="3"
-        >
-        <TextView
-            android:layout_marginStart="1dp"
-            android:text="@string/rek_tujuan"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            />
-        <EditText
-            android:id="@+id/input_rekening_tujuan"
-            android:hint="@string/rekening_tujuan_hint"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="2"
-            />
-    </LinearLayout>
-
 
     <Button
-        android:text="@string/submit"
-        android:id="@+id/submit"
+        android:text="@string/login"
+        android:id="@+id/login"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
-        />
-
-    <TextView
-        android:id="@+id/text_output"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="10dp"
-        android:textAlignment="center"
-        android:textSize="20sp"
-        tools:text="Hello name, Congratulations!"
-        />
-
-    <TextView
-        android:id="@+id/text_output1"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="10dp"
-        android:textAlignment="center"
-        android:textSize="20sp"
-        tools:text="Hello name, Congratulations!"
         />
 
     <TextView
@@ -129,4 +86,16 @@
         android:textSize="20sp"
         tools:text="Hello name, Congratulations!"
         />
+
+    <TextView
+        android:id="@+id/text_output3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        tools:text="Hello name, Congratulations!"
+        />
+
+
 </LinearLayout>

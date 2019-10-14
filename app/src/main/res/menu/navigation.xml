@@ -9,9 +9,6 @@
     <item android:id="@+id/action_transfer"
         android:title="Transfer"
         android:icon="@drawable/transfer" />
-    <item android:id="@+id/action_payment"
-        android:title="Payment"
-        android:icon="@drawable/money" />
     <item android:id="@+id/action_commerce"
         android:title="Commerce"
         android:icon="@drawable/shop" />

@@ -8,38 +8,8 @@
     android:padding="10dp"
     android:orientation="vertical"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context=".activities.Antar_RekeningActivity"
-    tools:showIn="@layout/activity_antar__rekening">
-
-
-    <LinearLayout
-        android:layout_width="396dp"
-        android:layout_height="wrap_content"
-        android:layout_margin="10dp"
-        android:weightSum="3">
-
-        <TextView
-            android:layout_marginStart="1dp"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="@string/name">
-
-        </TextView>
-
-        <EditText
-            android:id="@+id/input_name"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="2"
-            android:hint="@string/name_hint">
-
-        </EditText>
-
-
-
-    </LinearLayout>
-
+    tools:context=".activities.Antar_BankActivity"
+    tools:showIn="@layout/activity_antar__bank">
 
     <LinearLayout
         android:layout_width="396dp"
@@ -57,11 +27,40 @@
         </TextView>
 
         <EditText
-            android:id="@+id/input_bank"
+            android:id="@+id/input_bank1"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="2"
             android:hint="@string/bank_hint">
+
+        </EditText>
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="396dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:weightSum="3">
+
+        <TextView
+            android:layout_marginStart="1dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/rek_tujuan">
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/input_rekening_tujuan1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:hint="@string/rek_tujuan_hint">
 
         </EditText>
 
@@ -77,14 +76,14 @@
         >
         <TextView
             android:layout_marginStart="1dp"
-            android:text="@string/rek_tujuan"
+            android:text="@string/jum_uang"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             />
         <EditText
-            android:id="@+id/input_rekening_tujuan"
-            android:hint="@string/rekening_tujuan_hint"
+            android:id="@+id/input_jum_uang"
+            android:hint="@string/jum_uang_hint"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="2"
@@ -93,40 +92,40 @@
 
 
     <Button
-        android:text="@string/submit"
-        android:id="@+id/submit"
+        android:text="@string/kirim"
+        android:id="@+id/kirim"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
         />
 
     <TextView
-        android:id="@+id/text_output"
+        android:id="@+id/text_output3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
         android:textAlignment="center"
         android:textSize="20sp"
-        tools:text="Hello name, Congratulations!"
+        tools:text="Hello Bank, Congratulations!"
         />
 
     <TextView
-        android:id="@+id/text_output1"
+        android:id="@+id/text_output4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
         android:textAlignment="center"
         android:textSize="20sp"
-        tools:text="Hello name, Congratulations!"
+        tools:text="Hello rek_tujuan, Congratulations!"
         />
 
     <TextView
-        android:id="@+id/text_output2"
+        android:id="@+id/text_output5"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
         android:textAlignment="center"
         android:textSize="20sp"
-        tools:text="Hello name, Congratulations!"
+        tools:text="Hello jum_uang, Congratulations!"
         />
 </LinearLayout>

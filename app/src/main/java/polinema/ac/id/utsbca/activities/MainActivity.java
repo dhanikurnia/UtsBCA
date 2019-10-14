@@ -14,7 +14,6 @@ import polinema.ac.id.utsbca.fragments.AdminFragment;
 import polinema.ac.id.utsbca.fragments.CommerceFragment;
 import polinema.ac.id.utsbca.fragments.HomeFragment;
 import polinema.ac.id.utsbca.fragments.InfoFragment;
-import polinema.ac.id.utsbca.fragments.PaymentFragment;
 import polinema.ac.id.utsbca.fragments.TransferFragment;
 
 public class MainActivity extends AppCompatActivity implements BottomNavigationView.OnNavigationItemSelectedListener {
@@ -54,9 +53,6 @@ public class MainActivity extends AppCompatActivity implements BottomNavigationV
                 break;
             case R.id.action_transfer:
                 fragment = new TransferFragment();
-                break;
-            case R.id.action_payment:
-                fragment = new PaymentFragment();
                 break;
             case R.id.action_commerce:
                 fragment = new CommerceFragment();

@@ -5,10 +5,34 @@
     android:layout_height="match_parent"
     tools:context=".fragments.InfoFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
 
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Kenali Layanan
+BCA mobile adalah aplikasi pada smartphone yang dapat Anda gunakan untuk transaksi perbankan, baik mobile banking BCA (m-BCA) maupun internet bankingBCA (KlikBCA versi smartphone), kini Anda juga dapat menikmati layanan informasi terbaru dari BCA melalui aplikasi Info BCA.
+
+Info BCA dapat diunduh melalui smartphone Android, BlackBerry, iPhone, Nokia X, dan Windows Phone, serta dapat digunakan oleh nasabah dan calon nasabah BCA.
+
+Keuntungan
+Dengan aplikasi Info BCA, beragam informasi yang Anda butuhkan bisa terpenuhi. Informasi-informasi tersebut adalah:
+
+BCA Promo, informasi terkait promo kartu (Kartu Kredit, Debit, flazz, dll) dan promo produk/program BCA lainnya
+Mini Gallery, katalog produk BCA yang dapat dipesan langsung darismartphone Anda
+Aplikasi Online, form aplikasi pengajuan kartu kredit BCA
+*) Setelah melakukan pengisian data di aplikasi info BCA, aplikan akan dihubungi oleh Team Marketing BCA untuk proses lebih lanjut mengenai aplikasi Kartu Kredit BCA-nya
+Lokasi Cabang dan ATM BCA, lokasi terdekat dan pencarian lokasi Cabang serta ATM BCA
+Reward BCA, informasi jumlah reward BCA serta lokasi penukaran Reward BCA
+Sambungan langsung ke Halo BCA via telepon, Anda dapat langsung menghubungi Halo BCA dengan satu klik
+Perlu Diketahui
+Untuk mengunduh aplikasi Info BCA, akan dikenakan biaya akses internet (GPRS/EDGE/3G/WIFI). Apabila diakses dengan paket internet/BIS unlimited, maka tidak ada biaya tambahan.
+
+Ada 3 (tiga) cara untuk mengunduh aplikasi Info BCA, langsung dari smartphone Anda:
+
+Untuk pengguna BCA mobile, akses ke menu Info BCA yang terdapat pada menu utama BCA mobile. Anda akan diarahkan untuk mengunduh aplikasi Info BCA
+Akses ke application store smartphone Anda. App Store untuk iPhone, BlackBerry World untuk BlackBerry, Google Play Store untuk Android, Nokia Store untuk Nokia X, dan Windows Phone Store untuk Windows Phone.
+Langsung akses ke https://downloadmbank.klikbca.com/infobca
+Bila Aplikasi telah terunduh, Anda sudah dapat menikmati layanan informasi terkini dari BCA. Berikut adalah tampilan-tampilan informasi yang akan muncul pada layar smartphone Anda." />
 </LinearLayout>

@@ -28,14 +28,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         />
-
-    <Button
-        android:id="@+id/button_bca_virtual_account"
-        android:text="@string/BCA_Virtual_Account"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        />
-
+    
     <Button
         android:id="@+id/button_sakuku"
         android:text="@string/Sakuku"

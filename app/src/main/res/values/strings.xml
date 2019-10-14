@@ -15,4 +15,22 @@
     <string name="klikBCA">klikBCA</string>
     <string name="infoBCA">infoBCA</string>
     <string name="about">about</string>
+    <string name="bank">bank</string>
+    <string name="bank_hint">bank_hint</string>
+    <string name="kerekening_tujuan">kerekening_tujuan</string>
+    <string name="rekening_tujuan_hint">rekening_tujuan_hint</string>
+    <string name="rek_tujuan">rek_tujuan</string>
+    <string name="title_activity_antar__bank">Antar_BankActivity</string>
+    <string name="title_activity_sakuku">SakukuActivity</string>
+    <string name="title_activity_mbca">MbcaActivity</string>
+    <string name="title_activity_klikbca">KlikbcaActivity</string>
+    <string name="login">login</string>
+    <string name="password">password</string>
+    <string name="password_hint">password_hint</string>
+    <string name="ussername">ussername</string>
+    <string name="ussername_hint">ussername</string>
+    <string name="rek_tujuan_hint">rek_tujuan_hint</string>
+    <string name="jum_uang">jum_uang</string>
+    <string name="jum_uang_hint">jum_uang_hint</string>
+    <string name="kirim">kirim</string>
 </resources>

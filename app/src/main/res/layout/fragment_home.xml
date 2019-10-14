@@ -15,15 +15,8 @@
         android:layout_height="wrap_content"
         />
     <Button
-        android:id="@+id/button_klikBCA"
+        android:id="@+id/button_klikbca"
         android:text="@string/klikBCA"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        />
-
-    <Button
-        android:id="@+id/button_infoBCA"
-        android:text="@string/infoBCA"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         />

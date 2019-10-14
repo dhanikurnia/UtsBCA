@@ -1,14 +1,135 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".fragments.CommerceFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="match_parent">
 
-</FrameLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/view1"
+                android:layout_width="match_parent"
+                android:layout_height="125dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="15dp"
+                    android:src="@drawable/pln" />
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="100dp"
+                    android:text="Pembayaran Token PLN"
+                    android:textSize="10dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginStart="125dp">
+
+                </TextView>
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="100dp"
+                    android:text="Rp.50.000"
+                    android:textSize="10dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginStart="125dp">
+
+                </TextView>
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="100dp"
+                    android:text="Rp.100.000"
+                    android:textSize="10dp"
+                    android:layout_marginTop="60dp"
+                    android:layout_marginStart="125dp">
+
+                </TextView>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/view2"
+                android:layout_width="match_parent"
+                android:layout_height="125dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="15dp"
+                    android:src="@drawable/ovo" />
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="100dp"
+                    android:text="Top Up Ovo"
+                    android:textSize="10dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginStart="125dp">
+
+                </TextView>
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="100dp"
+                    android:text="Rp.50.000"
+                    android:textSize="10dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginStart="125dp">
+
+                </TextView>
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="100dp"
+                    android:text="Rp.100.000"
+                    android:textSize="10dp"
+                    android:layout_marginTop="60dp"
+                    android:layout_marginStart="125dp">
+
+                </TextView>
+
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/view3"
+                android:layout_width="match_parent"
+                android:layout_height="125dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp">>
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="15dp"
+                    android:src="@drawable/lainya" />
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="100dp"
+                    android:text="Lainnya"
+                    android:textSize="10dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginStart="125dp">
+
+                </TextView>
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>
