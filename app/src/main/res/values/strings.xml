@@ -33,4 +33,6 @@
     <string name="jum_uang">jum_uang</string>
     <string name="jum_uang_hint">jum_uang_hint</string>
     <string name="kirim">kirim</string>
+    <string name="title_activity_succeslogin">SuccesloginActivity</string>
+    <string name="title_activity_about">AboutActivity</string>
 </resources>

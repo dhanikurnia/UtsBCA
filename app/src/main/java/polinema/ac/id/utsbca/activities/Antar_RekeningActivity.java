@@ -24,6 +24,7 @@ public class Antar_RekeningActivity extends AppCompatActivity {
     TextView text_output;
     TextView text_output1;
     TextView text_output2;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

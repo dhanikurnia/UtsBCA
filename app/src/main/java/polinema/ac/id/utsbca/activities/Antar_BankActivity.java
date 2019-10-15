@@ -31,8 +31,8 @@ public class Antar_BankActivity extends AppCompatActivity {
         setContentView(R.layout.activity_antar__bank);
         Toolbar toolbar = findViewById(R.id.toolbar);
 
-        input_bank1 = findViewById(R.id.input_bank);
-        input_rekening_tujuan1 = findViewById(R.id.input_rekening_tujuan);
+        input_bank1 = findViewById(R.id.input_bank1);
+        input_rekening_tujuan1 = findViewById(R.id.input_rekening_tujuan1);
         input_jum_uang = findViewById(R.id.input_jum_uang);
         kirim = findViewById(R.id.kirim);
         text_output3 = findViewById(R.id.text_output3);

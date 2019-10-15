@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:background="#3F51B5"
+    android:background="#0D53E9"
     android:layout_height="match_parent"
     tools:context=".activities.SplashActivity">
 
@@ -24,7 +24,7 @@
             android:textColor="@android:color/white"
             android:layout_below="@+id/image"
             android:layout_height="wrap_content"
-            android:text="UTS BCA MOBAILE"/>
+            android:text="UTS BCA MOBILE"/>
     </RelativeLayout>
 
 </RelativeLayout>

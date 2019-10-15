@@ -1,6 +1,5 @@
 package polinema.ac.id.utsbca.activities;
 
-import android.content.Intent;
 import android.os.Bundle;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
@@ -13,12 +12,12 @@ import android.view.View;
 
 import polinema.ac.id.utsbca.R;
 
-public class SakukuActivity extends AppCompatActivity {
+public class AboutActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_sakuku);
+        setContentView(R.layout.activity_about);
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
@@ -33,9 +32,4 @@ public class SakukuActivity extends AppCompatActivity {
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 
-    public void postLogin(View view) {
-        Intent intent = new Intent(this, SuccesloginActivity.class);
-        startActivity(intent);
-    
-    }
 }

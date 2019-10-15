@@ -13,6 +13,24 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".activities.AboutActivity"
+            android:label="@string/title_activity_about"
+            android:parentActivityName=".activities.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="polinema.ac.id.utsbca.activities.MainActivity" />
+        </activity>
+        <activity
+            android:name=".activities.SuccesloginActivity"
+            android:label="@string/title_activity_succeslogin"
+            android:parentActivityName=".activities.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="polinema.ac.id.utsbca.activities.MainActivity" />
+        </activity>
+        <activity
             android:name=".activities.KlikbcaActivity"
             android:label="@string/title_activity_klikbca"
             android:parentActivityName=".activities.MainActivity"
